@@ -1,7 +1,5 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
-
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Amaranth', 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
 }
 
@@ -15,10 +13,17 @@ h2 {
 
 h3 {
   font-family: 'Gentium Book Basic', serif;
+  font-weight: 700;
 }
 
 i{
-  font-size: 40px;
+  font-size: 46px;
+  color: #f0f5f9;
+  padding: 8px;
+}
+
+i:hover{
+  color: #52616B;
 }
 
 .centered {
@@ -31,6 +36,11 @@ i{
 
 .img-circle {
   border-radius: 50%;
+}
+
+.img-mini {
+  width : 100px;
+  padding: 20px;
 }
 
 @media (min-width: 960px) {
@@ -70,7 +80,6 @@ i{
   padding: 30px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   margin: 24px auto;
-  width: 400px
 }
 .banner {
   background-color: #f0f5f9;
@@ -100,7 +109,6 @@ i{
 
 #avatar {
   height: 300px;
-  width: 300px;
 }
 
 
