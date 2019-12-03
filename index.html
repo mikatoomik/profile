@@ -20,39 +20,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Amaranth|Carter+One|Gentium+Book+Basic|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2e3a6ec173.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Page's content = displayed on the page -->
-    <div class="container centered">
+    <div class="container">
       <div class="banner">
         <h1>My profile</h1>
-        <img src="images/avatar_feuille.jpg" class="img-circle" id="avatar" alt="avatar">
-        <h2>Mikael</h2>
-        <p>
-          a new Web dev
-        </p>
-        <a href="#" class="btn rounded">Discover my work</a>
       </div>
-      <div class="card rounded">
-        <h2>My favorite skill</h2>
-        <p>In this new word, my favorite is back-end</p>
-        <ul class="in-line">
-          <li><img src="images/ruby.jpeg" class="img-circle img-mini" alt="ruby"></li>
-          <li><img src="images/rails.png" class="img-circle img-mini" alt="rails"></li>
-          <li><img src="images/active.png" class="img-circle img-mini" alt="activerecord"></li>
-        </ul>
-      </div>
-      <div class="card rounded">
-        <h2>Follow me</h2>
-        <ul class="in-line">
-          <li><a href="https://www.facebook.com/mikael.autheman"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a href="https://github.com/mikatoomik"><i class="fab fa-github-square"></i></a></li>
-          <li><a href="https://twitter.com/mikatoomik"><i class="fab fa-twitter-square"></i></a></li>
-        </ul>
+      <div class="card-container d-flex justify-content-around">
+        <div class="card">
+          <div class=""></div>
+          <div class="">
+            <h2>Mikael</h2>
+            <img src="images/avatar.jpeg" class="img-fluid rounded-circle avatar" alt="me">
+          </div>
+          <div class="">
+            <p>a new Web dev</p>
+          </div>
+        </div>
+        <div class="card">
+          <h2>My favorite skill</h2>
+          <p>In this new word, my favorite is back-end</p>
+          <div class=""><img src="images/ruby.jng" class="rounded-circle" alt="ruby"></div>
+          <div class=""><img src="images/rails.png" class="rounded-circle" alt="rails"></div>
+          <div class=""><img src="images/active.png" class="rounded-circle" alt="activerecord"></div>
+          <p>But The Wagon give me some knowledge in front</p>
+          <div class=""><img src="images/js.jng" class="rounded-circle" alt="ruby"></div>
+          <div class=""><img src="images/html.png" class="rounded-circle" alt="rails"></div>
+          <div class=""><img src="images/css.png" class="rounded-circle" alt="activerecord"></div>
+        </div>
+        <div class="card">
+          <div class=""><a href="https://www.facebook.com/mikael.autheman" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
+          <div class=""><a href="https://github.com/mikatoomik" target="_blank"><i class="fab fa-github-square"></i></a></div>
+          <div class=""><a href="https://twitter.com/mikatoomik" target="_blank"><i class="fab fa-twitter-square"></i></a></div>
+        </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
   </body>
 </html>
 <!-- end of file -->
