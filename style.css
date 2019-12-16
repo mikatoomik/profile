@@ -14,7 +14,17 @@ h2 {
 
 h3 {
   font-family: 'Gentium Book Basic', serif;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Carter One', serif;
   font-weight: 700;
+}
+
+h5 {
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 300;
 }
 
 ul {
@@ -27,8 +37,8 @@ ul > li > a {
 }
 
 .skill img {
-    height: 100px;
-    margin: 5px 20px;
+    height: 45px;
+    margin: 2px 5px;
 }
 
 .avatar {
@@ -38,6 +48,7 @@ ul > li > a {
   object-position: center;
 }
 .card {
+  padding: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -55,3 +66,4 @@ ul > li > a {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
