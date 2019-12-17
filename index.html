@@ -2,17 +2,20 @@
 <html>
   <head>
     <!-- Page's intelligence = meta tags -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <!-- Google result text-->
-    <title>My profile | New FullStack Web Dev</title>
+    <title>My profile | FullStack Web Developer</title>
     <!-- Google result description-->
     <meta name="description" content="Mikael’s profile: Learn more about me.">
-    <meta property="og:title" content="My profile - New FullStack Web Dev">
+    <meta property="og:title" content="My profile - FullStack Web Developer">
     <meta property="og:image" content="images/avatar.jpeg">
     <meta property="og:description" content="Mikael’s profile: Learn more about me.">
     <meta property="og:site_name" content="My profile"/>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@mikatoomik">
-    <meta name="twitter:title" content="My profile - FullStack Web Dev">
+    <meta name="twitter:title" content="My profile - FullStack Web Developer">
     <meta name="twitter:description" content="Mikael’s profile: Learn more about me.">
     <meta name="twitter:creator" content="@mikatoomik">
     <meta name="twitter:image:src" content="images/avatar.jpeg">
@@ -22,9 +25,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2e3a6ec173.js" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   </head>
   <body>
-    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/1600x200/?tech,laptop)">
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/banner.jpeg)">
       <h1>Mikael AUTHEMAN</h1>
       <p>Full Stack Web Developer</p>
     </div>
@@ -33,11 +37,11 @@
         <div class="col-12 col-md-5 ml-md-n2 col-lg-3 ml-lg-n5">
           <div class="card m-2">
             <img src="images/mikavatar.jpg" class="rounded-circle avatar m-2" style="width: 150px" alt="me">
-            <p class="font-weight-bold">About me</p>
+            <h3>About me</h3>
             <p class="text-justify text-wrap mx-3">French nationality <br>
               45 years old, born on February 22, 1974 in Nice (06)<br>
               Married, three children (22, 15 and 8 years old)<br>
-            <p class="font-weight-bold">Contact</p>
+            <h3>Contact</h3>
             <p class="text-justify text-wrap mx-3">385 Grande Rue<br>83600 Bagnols-en-forêt<br>
               06.61.12.33.97<br>
               <a href="mailto:mikael@autheman.top?subject=First Contact&body=Hello" class="text-reset text-decoration-none" >mikael@autheman.top</a></p>
@@ -45,7 +49,7 @@
           <div class="card skill m-2">
             <h3>Technicals skills</h3>
             <div class="row justify-content-center">
-              <p class="text-justify text-wrap mx-3">In this new word, my favorite is back-end</p>
+              <p class="text-justify text-wrap mx-3">My favorite is back-end</p>
               <div class="w-auto d-flex">
                 <img src="images/ruby.png" class="rounded" alt="ruby">
                 <img src="images/rails.png" class="rounded" alt="rails">
@@ -53,7 +57,7 @@
               </div>
             </div>
             <div class="row justify-content-center">
-              <p class="text-justify text-wrap mx-3">But The Wagon give me some knowledge in front</p>
+              <p class="text-justify text-wrap mx-3">But I have some knowledge in front</p>
               <div class="w-auto d-flex">
                 <img src="images/js.png" class="rounded" alt="js">
                 <img src="images/html.png" class="rounded" alt="html">
@@ -61,14 +65,16 @@
               </div>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <h4>
-
-            <a href="https://www.facebook.com/mikael.autheman" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://github.com/mikatoomik" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-github-square"></i></a>
-            <a href="https://twitter.com/mikatoomik" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.linkedin.com/in/mikael-autheman-a47b398b" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <div class="card skill m-2">
+            <h3>Social</h3>
+            <div class="row d-flex justify-content-center">
+              <h4>
+              <a href="https://www.facebook.com/mikael.autheman" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://github.com/mikatoomik" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://twitter.com/mikatoomik" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.linkedin.com/in/mikael-autheman-a47b398b" class="text-reset text-decoration-none m-1" target="_blank"><i class="fab fa-linkedin"></i></a>
             </h4>
+            </div>
           </div>
         </div>
         <div class="col-12 col-md-7 col-lg-8">
@@ -79,11 +85,18 @@
             <p class="text-justify text-wrap mx-3">9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015,
             SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
             production a clone of AirBnB and a Rails prototype.</p>
+            <h4>Sept 1998 - Juin 2002 : Specialized educator</h4>
+            <h5>Higher Education Institute Social Work Nice</h5>
+            <p class="text-justify text-wrap mx-3">Specialized social and educational support, Design and management of specialized educational projects,
+            Professional communication, Partnership, institutional and inter-institutional dynamics.</p>
+            <h4>Juin 1996 : Bachelor in Natural Sciences</h4>
+            <h5>Faculty of Sciences Nice Sophia Antipolis</h5>
+            <p class="text-justify text-wrap mx-3"></p>
           </div>
           <div class="card m-2">
               <h3>Web Developpement Portfolio</h3>
             <div class="row">
-              <div class="col-6">
+              <div class="col-12 col-md-6">
                 <h4><a href="https://game-hover.herokuapp.com" class="text-reset text-decoration-none" target="_blank">Game-Hover</a></h4>
                 <p>Airbnb clone made during the wagon training, by a team of 4 people in 1 week</p>
                 <h4><a href="http://www.marie-myrtille.com" class="text-reset text-decoration-none" target="_blank">Marie-Myrtille.com</a></h4>
@@ -91,7 +104,7 @@
                 <h4><a href="https://www.meancatrecords.fr" class="text-reset text-decoration-none" target="_blank">MeanCatRecords.fr</a></h4>
                 <p><i class="fab fa-joomla"><i class="fab fa-php"></i> </i> Mean Cat Recording Studios website</p>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-md-6">
                 <h4><a href="http://www.yonnetformations.fr" class="text-reset text-decoration-none" target="_blank">Yonnetformations.fr</a></h4>
                 <p><i class="fab fa-joomla"><i class="fab fa-php"></i> </i> Talent coach and trainer website</p>
                 <h4><a href="https://paulettedeschamps.fr" class="text-reset text-decoration-none" target="_blank">Paulettedeschamps.fr</a></h4>
@@ -109,6 +122,8 @@
             <p>  which offers decoration of events in general and weddings in particular.</p>
             <h4>From September 2011 to August 2014: Auto-entrepreneur </h4>
             <p> in IT consulting and website creation.</p>
+            <h4>Since August 2002: Specialist child protection educator</h4>
+            <p>in the departmental association for the safeguard of childhood and adolescence in the Var, recognized as a public utility</p>
           </div>
         </div>
       </div>
