@@ -1,7 +1,6 @@
 
 body {
   font-family: 'Amaranth', 'Open Sans', sans-serif;
-  font-weight: 300; /* if you want the light version */
 }
 
 h1 {
@@ -15,18 +14,16 @@ h2 {
 
 h3 {
   font-family: 'Gentium Book Basic', serif;
-  font-weight: 400;
 }
 
 h4 {
   font-family: 'Carter One', serif;
-  font-weight: 700;
   font-size: 1.25em;
+  text-align: center;
 }
 
 h5 {
   font-family: 'Gentium Book Basic', serif;
-  font-weight: 300;
 }
 
 ul {
@@ -42,6 +39,8 @@ ul > li > a {
     height: 45px;
     margin: 2px 5px;
 }
+
+
 
 .avatar {
   width: 150px;
@@ -69,3 +68,16 @@ ul > li > a {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+#social > a > i {
+  font-size: 2.5em;
+  color: #57274C;
+}
+
+#social > a > i:hover {
+  color: #9FA5AA;
+}
+
+#soft > i {
+  font-size: 2.5em;
+  color: #57274C;
+}
