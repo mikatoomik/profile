@@ -1,29 +1,32 @@
 
 body {
-  font-family: 'Amaranth', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-  font-family: 'Carter One', cursive;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
 }
 
 h2 {
-  font-family: 'Amaranth', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 2em;
 }
 
 h3 {
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Lato', sans-serif;
+
 }
 
 h4 {
-  font-family: 'Carter One', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 1.25em;
-  text-align: center;
+  font-weight: 700;
 }
 
 h5 {
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 ul {
@@ -81,3 +84,4 @@ ul > li > a {
   font-size: 2.5em;
   color: #57274C;
 }
+
