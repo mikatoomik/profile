@@ -45,12 +45,37 @@ ul > li > a {
 
 
 
-.avatar {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  object-position: center;
+  .avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+      left: 06%;
+      top: 02%;
+  }
+
+
+@media(max-width: 760px) {
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+      left: 01%;
+      top: 10%;
+  }
 }
+
+@media(max-width: 490px) {
+
+  .avatar {
+    display: none;
+  }
+}
+
 .card {
   padding: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -85,3 +110,7 @@ ul > li > a {
   color: #57274C;
 }
 
+#hobbies > i {
+  font-size: 2em;
+  color: #57274C;
+}
